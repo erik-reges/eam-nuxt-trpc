@@ -4,6 +4,12 @@
   "compilerOptions": {
     "strict": true,
     "skipLibCheck": true,
-    "types": ["@trpc/server", "@trpc/client", "vite/client", "@types/node"]
+    "types": [
+      "./types/middleware",
+      "@trpc/server",
+      "@trpc/client",
+      "vite/client",
+      "@types/node"
+    ]
   }
 }
